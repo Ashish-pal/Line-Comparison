@@ -83,7 +83,7 @@ public class LineComparisonMain {
         double q2 = sc.nextDouble();
 
         obj.getDataLine1(x1, x2, y1, y2);
-        obj.getDataLine2(x1, x2, y1, y2);
+        obj.getDataLine2(p1, p2, q1, q2);
         obj.calcLine1();
         obj.calcLine2();
         obj.checkLength();
